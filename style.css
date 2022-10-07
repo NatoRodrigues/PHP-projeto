@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF7F2;
+    height: 100vh;
+  }
+  
+  .container-login {
+    padding-top: 100px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+p{  
+    font-size: 1.1em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: white;
+    font-family: monospace;
+}
+
+  .quadro-login {
+    padding: 50px;
+    flex-direction: column;
+    background-color: rgb(52, 58, 64);
+    border-radius: 5px;
+    border-top: 5px solid #BF552D;
+    border-bottom: 5px solid #BF552D;
+    border-left:5px solid #BF552D;
+    border-right: 5px solid #BF552D;
+  }
+  
+  img {
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  
+  
+  .inputs #logar:hover {
+    border-radius: 3px;
+    border: 1px solid hsl(16, 44%, 54%);
+    background-color: #BD7257;
+    color: #FFF7F2;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(222,118,22,0), 5px 5px 15px 5px rgba(222,118,22,0); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(222,118,22,0), 5px 5px 15px 5px rgba(222,118,22,0);
+    
+  }
+
+  #logar{
+    margin: 20px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+  }
+
+
+  a{
+    font-family: monospace;
+    color: white;
+  }
+
+  #cadastrar{
+    text-align: center;
+    font-family: monospace;
+  }
+
+  a:hover{
+    font-family: monospace;
+    color: #BF552D;
+  }
+
+
+  #email{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #senha{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+
+  #conf-senha{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #usuario{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #fone{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #senha1{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #senha2{
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  img{
+    height: 180px;
+    width: 190px;
+  }
+
+
+  div#msg-sucesso{
+    width: 420px;
+    margin: 10px auto;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34, 139, 34);
+    font-family: monospace;
+    font-size: 1.0em;
+  }
+
+  .msg_erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 158, 114, .3);
+    border: 1px solid rgb(165, 42, 42);
+    font-family: monospace;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+
+  #login-sucesso{
+    color: #BD7257;
+  }
+
+
+  #login-sucesso:hover{
+    color: #ff7700;
+  }
