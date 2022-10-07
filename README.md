@@ -1,5 +1,5 @@
 # Tela-de-Login
-tela de login básica em php
+tela de login com front e back-end e senha criptografada no banco
 
 ![image](https://user-images.githubusercontent.com/99916443/194453010-f60e47b2-3d82-4a79-b855-a7da8aab6ace.png)
 
